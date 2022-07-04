@@ -1,0 +1,36 @@
+<HTML>
+	
+    <HEAD>
+        <TITLE> Window 객체 2 </TITLE>
+        <SCRIPT LANGUAGE="JAVASCRIPT"> 
+         <!--
+             function winOpen() {	
+                window.open("http://www.ehan.co.kr","이한출판사"); 
+             } 
+             function winOpenWithOpt() {	
+                window.open("http://www.ehan.co.kr","이한출판사", "width=500,height=300,left=0,top=0,resizable=no"); 
+             }
+             function fullOpen() { 
+                window.open("http://www.ehan.co.kr","이한출판사","fullscreen"); 
+             } 
+             function channelOpen() { 
+                window.open("http://www.ehan.co.kr","이한출판사","channelmode"); 
+             } 
+         //--> 
+        </SCRIPT> 
+    </HEAD>
+    
+    <BODY>
+        <P>
+        <INPUT TYPE="button" onClick="winOpen()" VALUE="옵션없이 팝업윈도우 열기"> 
+        <P>
+        <INPUT TYPE="button" onClick="winOpenWithOpt()" VALUE="옵션 값 있는 팝업 윈도우 열기"> 
+        <P>
+        <INPUT TYPE="button" onClick="fullOpen()" VALUE="fullscreen 모드로 열기"> 
+        <P>fullscreen 윈도우를 닫으려면 Alt+F4 키를 누르세요 
+        <P>
+        <INPUT TYPE="button" onClick="channelOpen()" VALUE="채널모드로 열기"> 
+    </BODY>
+    
+    </HTML>
+    
